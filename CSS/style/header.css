@@ -26,7 +26,7 @@ header{
     bottom: -5px;
     left: 0;
     width: 0;
-    height: 2px; /* Altura do traço, ajuste conforme necessário */
+    height: 2px;
     background-color: white;
     transition: width 0.3s ease;
 }
@@ -48,15 +48,15 @@ header{
     padding: 1em 2em;
     border-radius: 2rem;
     text-decoration: none;
-    border: 2px solid black; /* Adiciona uma borda no contorno */
-     /* Remova o contorno padrão */
+    border: 2px solid black;
+    
 }
 
 
 .botao__baixar:hover {
     background-color: black;
     color: white;
-    transition: background-color 1s ease; /* Aumente para 1 segundo (ou outro valor desejado) */
+    transition: background-color 1s ease; 
 }
 
 
@@ -67,3 +67,27 @@ header{
     top: 5px; 
     font-size: 2rem;
 }
+
+
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+  @media (max-width: 768px) {
+  
+
+    .div__botoes{
+        display: none;
+    }
+
+    .botao__container{
+        display: none;
+    }
+
+  }
+  
