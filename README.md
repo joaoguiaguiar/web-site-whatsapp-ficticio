@@ -1,2 +1,1 @@
-Projeto FICTICIO https://web-site-whatsapp-ficticio.vercel.app/
-(Site não responsivo)
+Projeto FICTICIO https://site-whpp.vercel.app/
